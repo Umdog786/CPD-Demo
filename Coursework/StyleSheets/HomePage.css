@@ -1,0 +1,502 @@
+@charset "utf-8";
+* {
+    /* Set box sizing to include borders */
+    box-sizing: border-box;
+}
+
+.HeroImage {
+    /* Styling for main background image */
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.HeroImageMainText {
+    /* Styling for main title */
+    text-align: center;
+    color: #66FCF1;
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+
+.NavBar ul {
+    /* Removes margin, bullet-points and padding from navigation bar */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar li {
+    /* Each individual nav bar block takes up 25% of the screen */
+    float: left;
+    width: 25%;
+    background-color: rgb(33, 31, 34);
+}
+
+.NavBar li a {
+    /* Various styling for the text in the navigation bar */
+    border-style: solid;
+    border-color: white;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    /* Source Sans Pro font: https://fonts.google.com/specimen/Source+Sans+Pro?query=source+sans+#standard-styles */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.NavBar li a:hover {
+    color: rgb(255, 123, 0);
+}
+
+.icon {
+    /* Styling vertical navigation bar icons */
+    /* Icons from www.fontawsome.com */
+    /* Home Icon: https://fontawesome.com/icons/home?style=solid */
+    /* Developer Icon: https://fontawesome.com/icons/dev?style=brands */
+    /* Graduation Cap Icon: https://fontawesome.com/icons/graduation-cap?style=solid */
+    /* LinkedIn Icon: https://fontawesome.com/icons/linkedin?style=brands */
+    width: 15px;
+    color: #66FCF1;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+/*-------------------------Homepage-------------------------*/
+
+.IndexRow1 {
+    /* Sets styling for all the content text on the Homepage */
+    /* Source Sans Pro font: https://fonts.google.com/specimen/Source+Sans+Pro?query=source+sans+#standard-styles */
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.IndexColumn1 {
+    /* Sizing and colouring for the left column on the Homepage */
+    border-right: 1.5px solid white;
+    border-bottom: 1px solid white;
+    float: left;
+    background-color: rgb(33, 31, 34);
+    color: white;
+    width: 50%;
+    height: 75%;
+}
+
+.IndexColumn1 p {
+    /* Styling and font-size for text in left column on the Homepage */
+    text-align: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 20px;
+}
+
+.IndexColumn2 {
+    /* Sizing and colouring for the right column on the Homepage */
+    float: right;
+    border-bottom: 1px solid white;
+    border-left: 1.5px solid white;
+    background-color: rgb(33, 31, 34);
+    color: white;
+    width: 50%;
+    height: 75%;
+}
+
+.IndexColumn2 p {
+    /* Styling and font-size for text in right column on the Homepage */
+    text-align: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 20px;
+}
+
+.IndexColumn2 ul {
+    /* Aligns the text on the bullet-point list in the right column of the Homepage */
+    text-align: left;
+    font-size: 20px;
+}
+
+
+/*-------------------------DevSoc-------------------------*/
+
+.DevsocRow1 {
+    /* Sets styling for all the content text on the DevSoc Page */
+    /* Source Sans Pro font: https://fonts.google.com/specimen/Source+Sans+Pro?query=source+sans+#standard-styles */
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.DevsocColumn1 {
+    /* Sizing and colouring for the left column on the DevSoc Page */
+    border-right: 1.5px solid white;
+    border-bottom: 1px solid white;
+    float: left;
+    background-color: rgb(33, 31, 34);
+    color: white;
+    width: 50%;
+    height: 75%;
+}
+
+.DevsocColumn1 h1 {
+    /* Adds padding to the left DevSoc column title */
+    padding-right: 17%;
+}
+
+.DevsocColumn1 ul {
+    /* Aligns the text on the bullet-point list in the left column of the DevSoc page */
+    text-align: left;
+    font-size: 20px;
+}
+
+.DevsocColumn1 p {
+    /* Styling and font-size for text in left column on the DevSoc page */
+    text-align: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 20px;
+}
+
+.DevsocColumn2 {
+    /* Sizing and colouring for the right column on the Devsoc poge */
+    float: right;
+    border-bottom: 1px solid white;
+    border-left: 1.5px solid white;
+    background-color: rgb(33, 31, 34);
+    color: white;
+    width: 50%;
+    height: 75%;
+}
+
+.DevsocColumn2 p {
+    /* Styling and font-size for text in right column on the DevSoc page */
+    text-align: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 20px;
+}
+
+.DevSocLogo {
+    /* Resize and make the DevSoc Logo circular */
+    width: 15%;
+    height: 18%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 3%;
+    margin-left: 2.5%;
+}
+
+.DevSocIBM {
+    /* Float IBM image left and add a margin */
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 1%;
+}
+
+.DevSocWorkshop {
+    /* Float Workshop image right and add a margin */
+    float: right;
+    margin-right: 2.5%;
+    margin-top: 1%;
+}
+
+.DevSocAmongUs {
+    /* Add margin to Among Us image */
+    margin-top: 11%;
+}
+
+.DevSocCryptographyChallenge {
+    /* Float Cryptography Challenge image left and add a margin */
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 9%;
+}
+
+.DevSocHelmet {
+    /* Float Helmet image right and add a margin */
+    float: right;
+    margin-right: 2.5%;
+    margin-top: 9%;
+}
+
+.DevSocKey {
+    /* Add margin to Key image */
+    margin-top: 19%;
+}
+
+.DevSocIBM,
+.DevSocAmongUs,
+.DevSocWorkshop,
+.DevSocCryptographyChallenge,
+.DevSocHelmet,
+.DevSocKey {
+    /* Set widths of all DevSoc page images to be equal */
+    width: 30%;
+    height: 30%;
+}
+
+
+/*-------------------------MLH-------------------------*/
+
+.MLHRow1 {
+    /* Sets styling for all the content text on the MLH Page */
+    /* Source Sans Pro font: https://fonts.google.com/specimen/Source+Sans+Pro?query=source+sans+#standard-styles */
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.MLHColumn1 {
+    /* Sizing and colouring for the left column on the MLH Page */
+    background-color: rgb(33, 31, 34);
+    color: white;
+    width: 100%;
+    height: 78%;
+}
+
+.MLHColumn1 h1 {
+    /* Adds padding to the MLH column title */
+    padding-top: 3%;
+}
+
+.MLHColumn1 p {
+    /* Styling and font-size for text in the column on the MLH page */
+    text-align: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 20px;
+}
+
+.MLHColumn1 ul {
+    /* Aligns the text on the bullet-point list in the  column of the MLH page */
+    text-align: left;
+    font-size: 20px;
+}
+
+.MLHColumn1 li {
+    margin-left: 1.5%;
+}
+
+.MLHInterviewImg {
+    /* Floats Interview Image right and sets sizes */
+    width: 27.5%;
+    height: 27.5%;
+    float: right;
+    margin-right: 20%;
+}
+
+.MLHBlockchainEvidence {
+    /* Floats Blockchain Image left and sets sizes */
+    width: 30%;
+    height: 27.5%;
+    margin-top: 6%;
+    margin-left: 2.5%;
+    float: left;
+}
+
+.MLHFullStackEvidence {
+    /* Floats Full Stack Image left and sets sizes */
+    width: 30%;
+    height: 27.5%;
+    margin-left: 2.5%;
+    margin-top: 1.5%;
+    float: left;
+}
+
+.MLHLocalHackDayEvidence {
+    /* Floats Local Hack Day Image right and sets sizes */
+    width: 30%;
+    height: 27.5%;
+    margin-right: 2.5%;
+    margin-top: 1.5%;
+    float: right;
+}
+
+
+/*-------------------------LinkedIn-------------------------*/
+
+.LinkedInRow1 {
+    /* Sets styling for all the content text on the LinkedIn Page */
+    /* Source Sans Pro font: https://fonts.google.com/specimen/Source+Sans+Pro?query=source+sans+#standard-styles */
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.LinkedInColumn1 {
+    /* Sizing and colouring for the  column on the LinkedIn Page */
+    background-color: rgb(33, 31, 34);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.LinkedInColumn1 h1 {
+    /* Adds padding to the LinkedIn column title */
+    padding-top: 3%;
+}
+
+.LinkedInColumn1 p {
+    /* Styling and font-size for text in column on the LinkedIn page */
+    text-align: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    font-size: 20px;
+}
+
+.LinkedInColumn1 ul {
+    /* CSS for bullet-point list on LinkedIn page */
+    text-align: left;
+    font-size: 20px;
+}
+
+.LinkedInColumn1 li {
+    margin-left: 1.5%;
+}
+
+.LinkedInDataScience {
+    /* CSS for LinkedIn Data Science Certificate */
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-left: 2.5%;
+}
+
+.LinkedInDatabase {
+    /* CSS for LinkedIn Database Certificate */
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin-right: 2.5%;
+}
+
+.LinkedInMachineLearning {
+    /* CSS for LinkedIn Machine Learning Certificate */
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin-right: 2.5%;
+}
+
+.LinkedInWebDev {
+    /* CSS for LinkedIn Web Dev Certificate */
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-left: 35%;
+    margin-top: 1%;
+}
+
+
+/*-------------------------Pictures-------------------------*/
+
+.PictureOfMe {
+    /*Resize the image to fit and make it circular */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.Instagram,
+.Gmail,
+.Twitter {
+    /*Make all the images the same size */
+    width: 100px;
+    height: 100px;
+}
+
+.Instagram {
+    /* Floats the instagram image to the right side of the column and add a slight margin */
+    border-radius: 50%;
+}
+
+.Gmail {
+    /* Floats the gmail image to the right side of the column and add a slight margin */
+    margin-left: 2.5%;
+    float: left;
+}
+
+.Twitter {
+    /* Floats the twitter image to the right side of the column and add a slight margin */
+    margin-right: 2.5%;
+    float: right;
+}
+
+
+/* Media Queries; if the screen is less than 760 pixels wide */
+
+@media screen and (max-width: 800px) {
+    .NavBar li {
+        /* Each Navigation Bar element is now 100% wide */
+        width: 100%;
+        padding-top: 10px;
+    }
+    .IndexColumn1 p,
+    .IndexColumn2 p,
+    .DevsocColumn1 p,
+    .DevsocColumn2 p,
+    .DevSocLogo,
+    .MLHColumn1 p,
+    .LinkedInColumn1 p {
+        /* Slightly increase margins to make text more appealing */
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    .IndexColumn1,
+    .IndexColumn2,
+    .DevsocColumn1,
+    .DevsocColumn2,
+    .MLHColumn1,
+    .LinkedInColumn1 {
+        /* Make the two columns appear underneath each other instead of side-by-side */
+        width: 100%;
+        height: auto;
+        border-style: hidden;
+    }
+    .DevSocIBM,
+    .DevSocWorkshop,
+    .DevSocAmongUs,
+    .DevSocCryptographyChallenge,
+    .DevSocHelmet,
+    .DevSocKey,
+    .MLHBlockchainEvidence,
+    .MLHFullStackEvidence,
+    .MLHLocalHackDayEvidence {
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+        float: none;
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+    .DevSocLogo {
+        width: 30%;
+        height: 15%;
+        padding-top: 3%;
+    }
+    .MLHInterviewImg {
+        width: 30%;
+        height: 25%;
+        border-radius: 50%;
+        padding-top: 2%;
+        margin-right: 3%;
+    }
+    .LinkedInDataScience,
+    .LinkedInDatabase,
+    .LinkedInMachineLearning,
+    .LinkedInWebDev {
+        width: 94%;
+        height: 50%;
+        margin-left: 3%;
+        margin-right: 3%;
+        float: none;
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+}
